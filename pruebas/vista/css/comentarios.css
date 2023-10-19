@@ -1,0 +1,53 @@
+#comentarios_encabezado {
+    background-color: #000000;
+    color: white;
+    font-family: "college";
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Ejemplo de estilos para los comentarios */
+.comentario {
+    max-width: 1200px;
+    width: 800px;
+    display: grid;
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "college";
+    font-size: 18px;
+    padding: 10px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(132, 132, 132, 0.386);
+}
+
+
+#ver_comentarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background: #000000; 
+    font-family: "college";
+    font-size: 20px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 10px;
+     
+  }
+  
+  #ver_comentarios a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #ver_comentarios:hover {
+    font-size: 24px; 
+    color: mediumslateblue; 
+    transition: 0.3s ease;
+    
+  }
